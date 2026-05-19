@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "adminstrador de gastos personales ",
+  "license": "ISC",
+  "author": "diego beltran",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  }
+}
