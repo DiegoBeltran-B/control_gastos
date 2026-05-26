@@ -4,6 +4,6 @@ const app = express ()
 app.listen (3000, () =>{
     console.log ('cree un servidor web')
 })
-app.get ('/finanzas', (req,res)=>{
+app.get ('/gastos', (req,res)=>{
     res.send('hola soy una app de finanzas')
 })
