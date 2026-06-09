@@ -1,9 +1,9 @@
-const db = require ('../config/db')
+const db = require('../config/db')
 
 class GastosModel{
     static async obtenerGastos(){
-        const [rows] = await db.query ('select * from transacciones')
-        console.log(rows)
+        const [rows] = await db.query('select * from transacciones')
+        return rows
     }
 }
 
