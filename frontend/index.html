@@ -1,32 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Control de gastos</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <div class="contenedor">
-        <h1 class="titulo">gastos diarios</h1>
-        <input type="text" name="" id="" placeholder="ingresos">
-       <select name="" id="">
-    <option value="">Seleccione una inversion</option>
-    <option value="arriendo">Arriendo</option>
-    <option value="mercado">Mercado</option>
-    <option value="pension">Pension</option>
-    <option value="servicios">Servicios</option>
-    <option value="transporte">Transporte</option>
-    <option value="universidad">Universidad</option>
-    <option value="parqueadero">Parqueadero</option>
-    <option value="comida">Comida</option>
-</select>
-        <input type="date" name="" id="">
-        <div id="botonera">
-            <button id="ing">ingresos</button>
-            <button id="gas">gasto</button>
-        </div>
+      <h1 class="titulo">gastos diarios</h1>
+      <input type="text" name="" id="" placeholder="ingresos" />
+      <select name="" id="">
+        <option value="">Seleccione una inversion</option>
+        <option value="arriendo">Arriendo</option>
+        <option value="mercado">Mercado</option>
+        <option value="pension">Pension</option>
+        <option value="servicios">Servicios</option>
+        <option value="transporte">Transporte</option>
+        <option value="universidad">Universidad</option>
+        <option value="parqueadero">Parqueadero</option>
+        <option value="comida">Comida</option>
+      </select>
+      <input type="date" name="" id="" />
+      <div id="botonera">
+        <button id="ing">ingresos</button>
+        <button id="gas">gasto</button>
+      </div>
+      <div id ="Transacciones" class="cont">
+        <h1>Transacciones</h1>
+        <!--esto es mi control de registro-->
+        <!-- <div class="fila gastos">
+                <div>ingresos</div>
+                <div>$20000</div>
+             </div> -->
+      </div>
     </div>
-   
-</body>
+    <script src="js/app.js"></script>
+  </body>
 </html>
